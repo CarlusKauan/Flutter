@@ -27,7 +27,6 @@ class HomePageState extends State<HomePage> {
         width: double.infinity,
         height: double.infinity,
         child: Column(
-          // mainAxisAlignment: MainAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text('Contador: $counter', style: TextStyle(fontSize: 30)),
