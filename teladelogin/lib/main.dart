@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'balta.io',
+      title: 'Tinder',
       theme: ThemeData(primaryColor: Colors.deepPurple),
       home: LoginPage(),
     );
