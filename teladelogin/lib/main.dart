@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Tinder',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(primaryColor: Colors.deepPurple),
       home: LoginPage(),
     );

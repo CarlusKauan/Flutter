@@ -31,13 +31,14 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-      children: <Widget>[
-        Container(width: 50, height: 50, color: Colors.blue),
-        Container(width: 50, height: 50, color: Colors.red),
-        Container(width: 50, height: 50, color: Colors.green),
-      ],
+    return Container(
+      child: Center(
+        child: Text(
+          'Carlos',
+          textDirection: TextDirection.ltr,
+          style: TextStyle(color: Colors.white, fontSize: 50.0),
+        ),
+      ),
     );
   }
 }
